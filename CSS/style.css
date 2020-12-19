@@ -95,14 +95,14 @@ body {
     /* justify-content: center; */
     /* align-items: center; */
 }
-img {
+#pp {
     width: 20vw;
     border: 3px solid #ffb50e;
     border-radius: 100%;
     /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34); */
     filter: grayscale();
 }
-img:hover {
+#pp:hover {
     filter: grayscale(0);
 }
 #name, #bio, #about {
@@ -145,25 +145,7 @@ img:hover {
     background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
     color: rgb(255, 255, 255);
     border: 0;
-}
-
-.projects {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border-radius: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 63.89vw;
-    height: 66.67vh;
-    margin: 150px auto;
-    font-size: 1.75vw;
-    transition: all .3s ease-in-out 0s;
-}
-.projects:hover {
-    transform: scale(1.05);
-    box-shadow: 0 20px 20px rgb(0, 0, 0, 0.17);
-}    
+}   
 
 * {
     box-sizing: border-box;
@@ -205,7 +187,7 @@ img:hover {
         /* justify-content: center; */
         /* align-items: center; */
     }
-    img {
+    #pp {
         width: 44vw;
         border-radius: 100%;
         /* box-shadow: 0px 0px 56px rgba(0, 0, 0, 0.24); */
@@ -273,7 +255,7 @@ img:hover {
         text-align: center;
         padding: 10px 0;
     }
-    #ex, #pr, #co {
+    #prj, #pr, #co {
         text-decoration: none;
         color: black;
         font-size: 12px;
@@ -285,7 +267,7 @@ img:hover {
         background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%);
         /* filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.32)); */
     }
-    #ex:hover {
+    #prj:hover {
         /* filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.32)); */
         font-size: 13px;
     }
