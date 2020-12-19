@@ -40,6 +40,7 @@ body {
     color: black;
     /* font-size: 16px; */
     font-size: 1.1vw;
+    z-index: 1;
 }
 #blog, #free {
     text-decoration: none;
@@ -55,6 +56,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 .opt {
     /* display: inline-block; */
@@ -99,9 +101,13 @@ body {
     /* align-items: center; */
 }
 img {
-    width: 19vw;
+    width: 20vw;
     border-radius: 100%;
-    /* box-shadow: 0px 0px 56px rgba(0, 0, 0, 0.24); */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34);
+    filter: grayscale();
+}
+img:hover {
+    filter: grayscale(0);
 }
 #name, #bio, #about {
     /* width: 100%; */
