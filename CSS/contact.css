@@ -11,18 +11,17 @@ body {
 }
 
 .form {
-    /* display: none; */
+    display: block;
+    width: 70vw;
+    /* height: 80vh; */
     background-color: black;
     color: white;
-    /* position: fixed; */
-    top: 80px;
-    left: 485px;
     font-size: 24px;
     font-weight: 500;
     border: 0;
     border-radius: 7px;
     padding: 70px 70px;
-    margin: 150px 492px;
+    margin: 150px auto;
 }
 /* .form:hover {
     filter: blur(30px);
@@ -40,7 +39,7 @@ body {
     border: 0;
     border-radius: 7px;
     padding: 5px 30px;
-    width: 100%;
+    width: 21vw;
 }
 .btn:hover {
     background: white;
@@ -50,6 +49,17 @@ input {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 7px;
+    font-family: 'Poppins';
+    color: white;
+    padding: 10px 20px;
+    margin-top: 7px;
+    /* margin-left: 20px; */
+}
+textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 13px;
     font-family: 'Poppins';
     color: white;
     padding: 10px 20px;
