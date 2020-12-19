@@ -1,0 +1,10 @@
+body {
+    /* background: linear-gradient(217deg, purple, blue); */
+    /* background-repeat: no-repeat; */
+}
+#h1 {
+    color: rgb(0, 0, 0);
+    font-size: 5vw;
+    font-weight: 600;
+    margin: 0;
+}
