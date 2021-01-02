@@ -1,7 +1,7 @@
 #links-container {
     /* width: 20vw;
     height: 70vh; */
-    margin: 8.9vw auto;
+    margin: 11.11vw auto;
     /* border: 1px solid black;
     border-radius: 7px;
     background-color: transparent;
@@ -12,18 +12,17 @@
     box-shadow: 0 20px 20px rgb(0, 0, 0, 0.17);
 } */
 #links-container ul {
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    padding: 0;
+    margin: 0;
 }
 #links-container ul li {
     text-align: center;
     list-style: none;
     margin: 5vh 0px;
-    width: 20vw;
 }
 #links-container ul li a {
     text-decoration: none;
@@ -39,11 +38,13 @@
     background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
     color: rgb(255, 255, 255);
     border: 0;
+    transition: all .2s ease-out 0s;
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width: 400px) {
     #links-container {
-        margin: 22vh auto;
+        margin: 24vh auto;
     }
     #links-container ul li a {
         text-decoration: none;
@@ -59,6 +60,8 @@
         background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
         color: rgb(255, 255, 255);
         border: 0;
+        transition: all .2s ease-out 0s;
+        transform: scale(1.2);
     }
     
 }
