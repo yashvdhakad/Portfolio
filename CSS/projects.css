@@ -1,6 +1,4 @@
 .projects {
-    /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
-    background-color: black;
     color: rgb(255, 255, 255);
     border-radius: 14px;
     display: flex;
@@ -11,6 +9,26 @@
     margin: 150px auto;
     font-size: 1.75vw;
     transition: all .3s ease-in-out 0s;
+}
+#box1 {
+    background: url('../Content/Project1.webp') no-repeat center center/cover;
+    /* background-color: black; */
+}
+#box2 {
+    /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+    background-color: black;
+}
+#box3 {
+    /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+    background-color: black;
+}
+#box4 {
+    /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+    background-color: black;
+}
+#box5 {
+    /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+    background-color: black;
 }
 .projects:hover {
     transform: scale(1.05);
@@ -23,8 +41,7 @@
 
 @media only screen and (max-width: 400px) {
     .projects {
-        background: url('../Content/Project\ 1.webp');
-        border-radius: 14px;
+        border-radius: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,5 +49,25 @@
         height: 22vh;
         margin: 150px auto;
         font-size: 2vw;
+    }
+    #box1 {
+        background: url('../Content/Project1.webp') no-repeat center center/cover;
+        /* background-color: black; */
+    }
+    #box2 {
+        /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+        background-color: black;
+    }
+    #box3 {
+        /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+        background-color: black;
+    }
+    #box4 {
+        /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+        background-color: black;
+    }
+    #box5 {
+        /* background: url('../Content/Project\ 1.webp') no-repeat center center/cover; */
+        background-color: black;
     }
 }
