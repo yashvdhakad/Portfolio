@@ -178,6 +178,7 @@ body {
 }
 .footer p {
     font-size: 16px;
+    font-weight: 500;
     padding-top: 1.3vw;
 }
 .social-icons
