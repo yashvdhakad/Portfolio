@@ -1,7 +1,7 @@
 #links-container {
     /* width: 20vw;
     height: 70vh; */
-    margin: 8.9vw auto;
+    margin: 11.11vw auto;
     /* border: 1px solid black;
     border-radius: 7px;
     background-color: transparent;
@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 400px) {
     #links-container {
-        margin: 22vh auto;
+        margin: 24vh auto;
     }
     #links-container ul li a {
         text-decoration: none;
