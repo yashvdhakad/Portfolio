@@ -18,7 +18,7 @@ section {
     color: white;
 }
 #box1 {
-    background: url('../Content/Project1.webp') no-repeat center center/cover;
+    background: url('/Content/Project1.webp') no-repeat center center/cover;
     /* background-color: black; */
 }
 #box2 {

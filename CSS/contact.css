@@ -1,49 +1,40 @@
 body {
     /* background: linear-gradient(217deg, purple, blue); */
-    /* background-repeat: no-repeat; */
+    /* background: black; */
 }
 
+.hero {
+    margin: 0 0;
+}
 #h1 {
+    position: absolute;
+    top: 330px;
+    left: 0px;
     color: rgb(0, 0, 0);
-    font-size: 5vw;
+    font-size: 7vw;
     font-weight: 600;
     margin: 0;
+    transform: rotate(-90deg);
 }
 
 .form {
     display: block;
-    width: 70vw;
-    /* height: 80vh; */
+    width: 60vw;
+    height: 85vh;
     background-color: black;
     color: white;
     font-size: 24px;
     font-weight: 500;
     border: 0;
     border-radius: 7px;
-    padding: 70px 70px;
-    margin: 150px auto;
+    padding: 30px 70px;
+    margin: 60px 24vw;
 }
 /* .form:hover {
     filter: blur(30px);
 } */
-.btn {
-    /* display: block;
-    margin: 0 auto; */
-    /* background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%); */
-    background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    font-weight: 500;
-    font-family: 'Poppins';
-    border: 0;
-    border-radius: 7px;
-    padding: 5px 30px;
-    width: 21vw;
-}
-.btn:hover {
-    background: white;
-    color: rgb(0, 0, 0);
+.fheading {
+    margin: 0;
 }
 input {
     background-color: transparent;
@@ -65,4 +56,29 @@ textarea {
     padding: 10px 20px;
     margin-top: 7px;
     /* margin-left: 20px; */
+}
+#projectinfo {
+    position: absolute;
+    overflow: hidden;
+    top: 90px;
+    right: 285px;
+}
+.btn {
+    /* display: block;
+    margin: 0 auto; */
+    /* background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%); */
+    background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border: 0;
+    border-radius: 7px;
+    padding: 5px 30px;
+    width: 50vw;
+}
+.btn:hover {
+    background: white;
+    color: rgb(0, 0, 0);
 }
