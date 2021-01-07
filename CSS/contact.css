@@ -4,6 +4,7 @@ body {
 }
 
 .hero {
+    display: none;
     margin: 0 0;
 }
 #h1 {
@@ -17,18 +18,25 @@ body {
     transform: rotate(-90deg);
 }
 
+Form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 .form {
-    display: block;
-    width: 60vw;
-    height: 85vh;
-    background-color: black;
-    color: white;
+    /* display: block; */
+    /* width: 30vw; */
+    /* height: 80vh; */
+    /* background: white; */
+    background: transparent;
+    color: black;
     font-size: 24px;
     font-weight: 500;
-    border: 0;
+    /* border: 1px solid black; */
     border-radius: 7px;
-    padding: 30px 70px;
-    margin: 60px 24vw;
+    padding: 70px 70px;
+    margin: 60px 4.5vw;
 }
 /* .form:hover {
     filter: blur(30px);
@@ -38,47 +46,48 @@ body {
 }
 input {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 7px;
     font-family: 'Poppins';
-    color: white;
+    color: black;
     padding: 10px 20px;
     margin-top: 7px;
     /* margin-left: 20px; */
 }
 textarea {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 7px;
     font-size: 13px;
     font-family: 'Poppins';
-    color: white;
+    color: black;
     padding: 10px 20px;
     margin-top: 7px;
     /* margin-left: 20px; */
 }
-#projectinfo {
+/* #projectinfo {
     position: absolute;
     overflow: hidden;
     top: 90px;
     right: 285px;
-}
+} */
 .btn {
     /* display: block;
     margin: 0 auto; */
     /* background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%); */
-    background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
+    /* background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%); */
+    background: transparent;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Poppins';
-    border: 0;
+    border: 1px solid black;
     border-radius: 7px;
     padding: 5px 30px;
-    width: 50vw;
+    width: 100%;
 }
 .btn:hover {
-    background: white;
-    color: rgb(0, 0, 0);
+    background: black;
+    color: white;
 }

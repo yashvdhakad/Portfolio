@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    /* background: url('/Content/bg.png') no-repeat center center/cover; */
-    background: white;
+    background: url('/Content/Bg.webp') no-repeat center center/cover;
+    /* background: white; */
     /* background: linear-gradient(217deg, purple, navy, blue); */
     font-family: 'Poppins';
     margin: 0;
@@ -169,13 +169,13 @@ body {
 }
 
 .footer {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    width: 100%;
-    height: 17vh;
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
+    width: 100%;
+    height: 17vh;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     font-size: 1.5vw;
     box-shadow: 0px -8px 56px rgb(0, 0, 0, 0.17);
 }
@@ -256,8 +256,9 @@ body {
         margin: 0;
     }
     #about {
-        font-size: 2.4vw;
+        font-size: 3.3vw;
         font-weight: 300;
+        margin-top: 8px;
         margin-bottom: 15px;
         width: 87vw;
     }
