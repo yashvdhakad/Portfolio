@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    background: url('/Content/Bg.webp') no-repeat center center/cover;
+    /* background: colour url('image') no-repeat fixed center center/cover; */
+    background: url('/Content/Bg.webp') no-repeat fixed center center/cover;
     /* background: white; */
     /* background: linear-gradient(217deg, purple, navy, blue); */
     font-family: 'Poppins';
@@ -98,18 +99,23 @@ body {
     color: white; */
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    background: url('/Content/YBg.webp') no-repeat scroll center center/cover;
+    width: 62%;
+    height: 65%;
+    z-index: -1;
+    border-radius: 7px;
+}
 .hero {
-    text-align: center;
-    margin: 135px auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-}
-.hero a {
-    /* display: block; */
-    color: black;
-    text-decoration: none;
+    margin: 270px auto;
+    text-align: left;
+    color: white;
 }
 #pp {
     width: 20vw;
@@ -126,34 +132,55 @@ body {
     line-height: 130%;
 }
 #name {
-    font-size: 5vw;
+    position: relative;
+    right: 212px;
+    font-size: 4vw;
     font-weight: 600;
     margin: 0;
 }
 #bio {
-    font-size: 2.22vw;
+    position: relative;
+    right: 180px;
+    font-size: 1.5vw;
     font-weight: 300;
     margin: 0;
+    width: 30vw;
 }
 #about {
-    font-size: 1.18vw;
+    position: relative;
+    right: 200px;
+    font-size: 1vw;
     font-weight: 300;
-    margin-bottom: 25px;
-    width: 55vw;
+    margin-bottom: 20px;
+    width: 27vw;
 }
 #about span {
     font-weight: 500;
 }
+#name:hover {
+    color: black;
+    cursor: default;
+}
+#bio:hover {
+    color: black;
+    cursor: default;
+}
+#about:hover {
+    color: black;
+    cursor: default;
+}
 .cta {
+    position: relative;
+    right: 307px;
     text-align: center;
     /* background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%); */
     background: transparent;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: 500;
     font-family: 'Poppins';
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 7px;
     padding: 5px 25px;
 }
@@ -180,6 +207,7 @@ body {
     box-shadow: 0px -8px 56px rgb(0, 0, 0, 0.17);
 }
 .footer p {
+    color: #333333;
     font-size: 16px;
     font-weight: 500;
     padding-top: 1.3vw;
