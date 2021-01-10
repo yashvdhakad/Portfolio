@@ -18,7 +18,8 @@
 }
 .blog-card:hover {
     transform: scale(1.01);
-    box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 27px 0px #ffb70e7c;
+    box-shadow: 0px 0px 34px 0px rgba(137, 43, 226, 0.17);
 }
 
 @media only screen and (max-width: 400px) {
