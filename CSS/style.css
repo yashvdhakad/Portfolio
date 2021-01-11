@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -113,7 +114,7 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    margin: 300px 15vw;
+    margin: 275px 15vw;
     text-align: left;
     color: white;
 }
@@ -268,13 +269,20 @@ body {
         color: blue;
     }
     
+    .hero::before {
+        content: "";
+        position: absolute;
+        background: url('/Content/YBg.webp') no-repeat scroll center center/cover;
+        width: 90%;
+        height: 80%;
+        z-index: -1;
+        border-radius: 5px;
+    }
     .hero {
-        text-align: center;
-        margin: 180px auto;
-        /* display: flex; */
-        /* flex-flow: column wrap; */
-        /* justify-content: center; */
-        /* align-items: center; */
+        align-items: flex-start;
+        margin: 125px 4.8vw;
+        text-align: left;
+        color: white;
     }
     #pp {
         width: 55vw;
@@ -282,34 +290,39 @@ body {
         /* box-shadow: 0px 0px 56px rgba(0, 0, 0, 0.24); */
     }
     #name {
-        font-size: 8vw;
+        font-size: 12vw;
         font-weight: 600;
         margin: 0;
+        margin-left: 30px;
+        margin-top: 350px;
     }
     #bio {
-        font-size: 3.6vw;
-        font-weight: 300;
+        font-size: 4.6vw;
+        font-weight: 400;
         margin: 0;
+        margin-left: 30px;
+        width: 80vw;
     }
     #about {
-        font-size: 3.3vw;
+        font-size: 3.4vw;
         font-weight: 300;
-        margin-top: 8px;
-        margin-bottom: 15px;
-        width: 87vw;
+        margin-bottom: 20px;
+        width: 80vw;
+        margin-left: 30px;
     }
     .cta {
         text-align: center;
         /* background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%); */
         background: transparent;
         cursor: pointer;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-size: 12px;
         font-weight: 500;
         font-family: 'Poppins';
-        border: 1px solid black;
+        border: 1px solid rgb(255, 255, 255);
         border-radius: 7px;
         padding: 5px 15px;
+        margin-left: 30px;
     }
     .cta:hover {
         /* background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%); */
