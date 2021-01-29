@@ -9,7 +9,7 @@ Form {
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 500;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 7px;
     padding: 70px 70px;
     margin: 70px 4.5vw;
@@ -61,7 +61,7 @@ textarea {
     font-family: 'Poppins';
     border: 1px solid rgb(255, 255, 255);
     border-radius: 7px;
-    padding: 5px 30px;
+    padding: 9px 30px;
     width: 100%;
 }
 .btn:hover {
