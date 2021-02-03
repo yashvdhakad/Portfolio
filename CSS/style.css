@@ -340,7 +340,11 @@ body {
     height: 60px;
     background: white;
     border-radius: 100%;
-    /* margin-top: 1vw; */
+    cursor: pointer;
+}
+#menu:hover {
+    transition: all .2s ease-in-out 0s;
+    transform: scale(1.1);
 }
 #arrow {
     position: fixed;
