@@ -10,7 +10,7 @@ Form {
     font-size: 24px;
     font-weight: 500;
     /* border: 1px solid white; */
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 70px 70px;
     margin: 70px 4.5vw;
     /* opacity: .17; */
@@ -24,7 +24,7 @@ Form {
 input {
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 7px;
+    border-radius: 3px;
     font-family: 'Poppins';
     color: rgb(255, 255, 255);
     padding: 10px 20px;
@@ -34,7 +34,7 @@ input {
 textarea {
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 7px;
+    border-radius: 3px;
     font-size: 13px;
     font-family: 'Poppins';
     color: rgb(253, 253, 253);
@@ -60,12 +60,12 @@ textarea {
     font-weight: 500;
     font-family: 'Poppins';
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 9px 30px;
     width: 100%;
 }
 .btn:hover {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: 0;
 }
