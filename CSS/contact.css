@@ -52,14 +52,15 @@ textarea {
     /* display: block;
     margin: 0 auto; */
     /* background: linear-gradient(224.72deg, #FFDD55 0.62%, #FFAD01 100%); */
-    /* background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%); */
-    background: transparent;
+    background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%);
+    /* background: transparent; */
     cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: 500;
     font-family: 'Poppins';
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
+    border: 0;
     border-radius: 3px;
     padding: 9px 30px;
     width: 100%;
