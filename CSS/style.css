@@ -186,6 +186,7 @@ body {
     border-radius: 3px;
     padding: 9px 4rem;
     margin-left: 70px;
+    text-decoration: none;
 }
 .cta:hover {
     /* background: linear-gradient(224.72deg, #0004ff 0.62%, #6201ff 100%); */
