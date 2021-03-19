@@ -70,3 +70,10 @@ textarea {
     color: rgb(0, 0, 0);
     border: 0;
 }
+
+@media only screen and (max-width: 400px) {
+.form {
+    padding: 35px 70px;
+    margin: 0px 4.5vw;
+}
+}
