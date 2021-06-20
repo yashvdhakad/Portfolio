@@ -9,7 +9,7 @@
 body {
     font-family: 'Orbitron', sans-serif;
     line-height: 1.5;
-    background: black url(BgLines.svg) fixed top center;
+    background: black url(../content/BgLines.svg) fixed top center;
     color: white;
     padding: 60px 390px;
 }
