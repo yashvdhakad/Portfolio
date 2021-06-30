@@ -35,13 +35,6 @@ div > a {
     text-decoration: none;
     color: white;
 }
-.arrow {
-    display: none;
-    position: fixed;
-    left: 50vw;
-    bottom: 40px;
-    font-size: 2.25rem;
-}
 
 section {
     height: 100vh;
@@ -94,13 +87,23 @@ section {
 .allProjects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 24px;
+    gap: 24px;
 }
 .grid {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 80vh;
     background: black;
 }
+#p0 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 24px;
+}
+.p0grid {
+    /* border: 1px solid white; */
+}
+
 /* #p1 {
     background: url(https://source.unsplash.com/1600x900/?nature,water);
 }
@@ -131,3 +134,27 @@ section {
 #p10 {
     background: url(https://source.unsplash.com/1600x900/?nature,water);
 } */
+#p11, #p-1 {
+    background: transparent;
+    border: 0;
+    padding-top: 64px;
+}
+#p12 {
+    background: url(../content/YBg.webp) no-repeat center center;
+    background-size: cover;
+    border: 0;
+}
+
+#cta {
+    margin-top: 40px;
+    border-color: gold;
+}
+#cta:hover {
+    color: black;
+    background: linear-gradient(135deg, gold, goldenrod);
+}
+
+.arrow {
+    font-size: 2.25rem;
+    margin: 40px 0;
+}
