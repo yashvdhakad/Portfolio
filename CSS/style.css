@@ -83,6 +83,22 @@ section {
     background: white;
 }
 
+.allskills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px;
+}
+.allskills > a {
+    text-decoration: none;
+    color: white;
+}
+.skills {
+    font-size: 4.25rem;
+    font-weight: 600;
+}
+
 .about > span{
     margin: 40px 0;
 }
@@ -93,19 +109,55 @@ section {
     gap: 24px;
 }
 .grid {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     height: 80vh;
-    background: black;
 }
 #p0 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 24px;
 }
 .p0grid {
-    /* border: 1px solid white; */
+    border: 1px solid white;
+    filter: invert();
 }
+#comp1 {
+    background: url(../content/1.svg) no-repeat center center;    
+}
+#comp2 {
+    background: url(../content/2.svg) no-repeat center center;
+}
+#comp3 {
+    background: url(../content/3.svg) no-repeat center center;
+}
+#comp4 {
+    background: url(../content/4.svg) no-repeat center center;
+}
+#comp5 {
+    background: url(../content/5.svg) no-repeat center center;
+}
+#comp6 {
+    background: url(../content/6.svg) no-repeat center center;
+}
+/* #comp7 {
+    background: url() no-repeat center center;
+}
+#comp8 {
+    background: url() no-repeat center center;
+}
+#comp9 {
+    background: url() no-repeat center center;
+}
+#comp10 {
+    background: url() no-repeat center center;
+}
+#comp11 {
+    background: url() no-repeat center center;
+}
+#comp12 {
+    background: url() no-repeat center center;
+} */
 
 /* #p1 {
     background: url(https://source.unsplash.com/1600x900/?nature,water);
@@ -141,10 +193,12 @@ section {
     background: transparent;
     border: 0;
     padding-top: 64px;
+    font-size: 1.25rem;
 }
 #p12 {
     background: url(../content/YBg.webp) no-repeat center center;
     background-size: cover;
+    filter: grayscale();
     border: 0;
 }
 
