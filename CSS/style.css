@@ -20,21 +20,24 @@ body {
 }
 .contact {
     position: fixed;
+    bottom: 40px;
     right: 120px;
 }
 .projects {
     position: fixed;
     bottom: 40px;
 }
-.socialMedia {
+.social-icons {
     position: fixed;
-    bottom: 40px;
     right: 120px;
+    font-size: 1.27rem;
+    letter-spacing: 4px;
 }
 div > a {
     text-decoration: none;
     color: white;
 }
+
 
 section {
     height: 100vh;
@@ -158,3 +161,4 @@ section {
     font-size: 2.25rem;
     margin: 40px 0;
 }
+
