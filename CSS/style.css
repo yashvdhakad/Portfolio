@@ -216,7 +216,7 @@ section {
     margin: 40px 0;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 450px) {
     .hero {
         font-size: 4.25rem;
     }
