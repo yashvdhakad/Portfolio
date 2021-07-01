@@ -216,3 +216,47 @@ section {
     margin: 40px 0;
 }
 
+@media only screen and (max-width: 412px) {
+    .hero {
+        font-size: 4.25rem;
+    }
+    .options {
+        padding: 24px 40px;
+    }
+    .contact {
+        bottom: 24px;
+        right: 40px;
+    }
+    .projects {
+        bottom: 24px;
+    }
+    .social-icons {
+        right: 40px;
+    }
+    #subtitle {
+        font-size: 1.25rem;
+        width: 90vw;
+        margin: 24px 0;
+    }
+    section {
+        padding: 0px 40px;
+    }
+    .allskills {
+        padding: 120px 40px;
+    }
+    .skills {
+        font-size: 1.7rem;
+    }
+    .allProjects {
+        gap: 8px;
+    }
+    #p0 {
+        gap: 0px;
+    }
+    #p11, #p-1 {
+        font-size: 1rem;
+    }
+    #comp1, #comp2, #comp3, #comp4, #comp5, #comp6 {
+        background-size: 100px;
+    }
+}
